@@ -2,22 +2,18 @@ import java.util.Scanner;
 
 public class Program1 {
 
-    // Method for addition
     public double add(double a, double b) {
         return a + b;
     }
 
-    // Method for subtraction
     public double subtract(double a, double b) {
         return a - b;
     }
 
-    // Method for multiplication
     public double multiply(double a, double b) {
         return a * b;
     }
 
-    // Method for division
     public double divide(double a, double b) {
         if (b == 0) {
             System.out.println("Error: Division by zero is not allowed.");
@@ -27,22 +23,20 @@ public class Program1 {
     }
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         Program1 cal = new Program1();
 
         System.out.println("Welcome to the Calculator!");
 
-        // Input values from the user
         System.out.print("Enter the first number: ");
-        double num1 = scanner.nextDouble();
+        double num1 = sc.nextDouble();
 
         System.out.print("Enter the operator (+, -, *, /): ");
-        char operator = scanner.next().charAt(0);
+        char operator = sc.next().charAt(0);
 
         System.out.print("Enter the second number: ");
-        double num2 = scanner.nextDouble();
+        double num2 = sc.nextDouble();
 
-        // Perform the operation based on the operator
         double result = 0;
         boolean validOperator = true;
 
@@ -66,6 +60,6 @@ public class Program1 {
             System.out.println("Result: " + result);
         }
 
-        scanner.close();
+        sc.close();
     }
 }
