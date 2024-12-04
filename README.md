@@ -4,7 +4,7 @@ Welcome to the Java Programs Collection! This repository contains four beginner-
 
   ## Programs Overview
   
-##1. Program1: Calculator
+##1. Program: Calculator
 A basic calculator program to perform arithmetic operations:
 
 #Addition
@@ -25,7 +25,7 @@ Enter the second number: 2
 Result: 5.0
 
 
-##2. Program2: Odd Number Series Generator
+##2. Program: Odd Number Series Generator
 This program generates a series of the first a odd numbers.
 
 #How it works:
@@ -37,7 +37,7 @@ The program outputs the first a odd numbers in sequence.
 Enter an integer value (a): 5
 Output: 1, 3, 5, 7, 9
 
-##3. Program3: Adjusted Odd Number Series
+##3. Program: Adjusted Odd Number Series
 This program outputs a series of odd numbers up to the largest odd number less than or equal to a.
 
 ##How it works:
@@ -52,7 +52,7 @@ Enter an integer value (a): 6
 Output: 1, 3, 5
 
 
-##4. Program4: Multiples Counter
+##4. Program: Multiples Counter
 This program counts how many numbers in a predefined array are divisible by integers from 1 to 9.
 
 ##How it works:
