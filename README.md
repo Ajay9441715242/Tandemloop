@@ -1,5 +1,5 @@
 # Tandemloop
-# Java Programs Collection
+# For these programs i used JAVA lanugage
 Welcome to the Java Programs Collection! This repository contains four beginner-friendly Java programs that showcase basic programming concepts. Each program is unique and serves as a practical example of Java functionality.
 
   ## Programs Overview
